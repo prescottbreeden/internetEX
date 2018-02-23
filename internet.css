@@ -1,0 +1,254 @@
+*{
+	padding: 0;
+	margin: 0; 
+}
+/* table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset, img, abbr {
+	border: 0;
+}
+address, caption, cite, code, dfn, em, 
+h1, h2, h3, h4, h5, h6, strong, th, var {
+	font-weight: normal;
+	font-style: normal;
+}
+ul {
+	list-style: none;
+}
+caption, th {
+	text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 1.0em;
+}
+q:before, q:after {
+	content: '';
+}
+a, ins {
+	text-decoration: none;
+} */
+
+/* div {
+    border: 1px dashed black;
+} */
+
+.wrapper {
+    width: 960px;
+    /* height: 2000px; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    /* position: relative; */
+}
+.header {
+    /* position: relative; */
+}
+.globe-image {
+    position: absolute;
+    display: inline-block;
+    height: 95px;
+    width: 95px;
+}
+.the-internet {
+    margin-left: 110px;
+    font-size: 50px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.www {
+    background: linear-gradient(
+        #2969a0,
+        #4e81ab,
+        #2969a0
+    );
+    font-size: 30px;
+    color: white;
+    padding: 10px 30px;
+}
+.container {
+    background-image: linear-gradient(
+        #e3e3e3, 
+        white 20%
+        );
+}
+
+.sidebar {
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    padding: 5px;
+    
+}
+.resources{
+    height: 200px;
+    border-bottom: 0.5px solid grey;
+}
+.resources p {
+    font-weight: bold;
+    font-size: 13px;
+}
+.resources h5{
+    padding: 20px 0 10px 0;
+    font-size: 15px;
+}
+.resources button {
+    width: 95%;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 0px #9e9b98;
+}
+.watch-video {
+    background-image: linear-gradient(
+        #6298c3,
+        #2f6a9c
+    );
+    margin-top: 20px;
+}
+.more-resources {
+    background-image: linear-gradient(
+        #eeb96b,
+        #ef7430
+    );
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+.advertisement{
+    height: 260px;
+    background-image: url("Images/ad_background.png");
+    color: white;
+    margin-top: 25px;
+    font-size: 22px;
+    padding: 20px;
+    text-align: center;
+}
+.advertisement img {
+    width: 50%;
+}
+.advertisement button {
+    background: linear-gradient(
+        #78d0e0,
+        #4ab7d3
+    );
+    border: none;
+    outline: none;
+    width: 95%;
+    padding: 5px 20px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.main-content {
+    width: 700px;
+    display: inline-block;
+    height: 1000px;
+    margin-left: 30px;
+}
+.main-content-head {
+    height: 60px;
+    border-bottom: 1px solid grey;
+    display: inline-block;
+    /* padding: 10px; */
+}
+.home-button {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    margin-top: 10px;
+}
+.home-button img {
+   width: 20%;
+}
+.home-button p {
+    display: inline-block;
+}
+.contact-info {
+    width: 200px;
+    margin-left: 390px;
+    display: inline-block;
+    text-align: right;
+    position: relative;
+}
+.contact-info img {
+    position: absolute;
+    display: inline-block;
+    width: 20%;
+    top: 10px;
+    left: 5px;
+    
+}
+
+.clients-servers {
+    /* margin-top:5px; */
+
+}
+.main-content h3 {
+    color: #3370a5;
+    margin-bottom: 5px;
+}
+.clients-servers ul {
+    margin-left: 40px;
+    margin-top: 8px;
+}
+.clients-servers ol {
+    margin-left: 40px;
+    margin-top: 8px;
+}
+.clients-servers li {
+    margin-top: 8px;
+}
+.server-client-image{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+.big-three {
+    /* height: 200px; */
+    display: inline-block;
+    border: 5px solid;
+    border-color: #2185e1 #2185e1 white #2185e1;
+    padding: 10px;
+    margin-top: 20px;
+    /* box-shadow: 2px 0 #bbb; */
+}
+.big-three-image {
+    width: 15%;
+    display: inline-block;
+}
+.big-three-text {
+    display: inline-block;
+    width: 80%;
+    /* border: 5px solid red; */
+}
+.big-three h3{
+    display: inline-block;
+    vertical-align: top;
+}
+.light-blue-text {
+    color: #4ec1df;
+    /* font-style: italic; */
+}
+.dark-blue-text {
+    color: #3371a5;
+    /* color: #24669e */
+}
+.red-text {
+    color: red;
+}
+.super-size-me {
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.contact-info-p {
+    /* display: inline-block; */
+    font-size: 10px;
+    /* margin: 0; */
+    /* text-align: right; */
+}
